@@ -11,6 +11,6 @@ def key_for_min_value(name_hash)
       d_key = i[0]
     end
   end
-  name_a.to_h 
+  
 
 end
