@@ -11,8 +11,10 @@ def key_for_min_value(name_hash)
       d_key = i[0]
     end
   end
-  if d_key = 0 
+  if name_hash = {}
     return nil 
+  else 
+    return d_key
   end
 
 end
