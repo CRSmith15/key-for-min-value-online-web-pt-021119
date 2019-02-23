@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   d_value = 1000
   d_key = 0 
   name_a.each do |i|
-    if i < d_value
+    if i[1] < d_value
       
 
 end
